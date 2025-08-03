@@ -1,11 +1,11 @@
 import pandas as pd
 from joblib import load
 
-model_rest = load("C:/ML Projects/Health Care Premium Prediction/artifatcs/model_rest.joblib")
-model_young = load("C:/ML Projects/Health Care Premium Prediction/artifatcs/model_young.joblib")
+model_rest = load("C:\ML Projects\Health Care Premium Prediction\artifatcs\model_rest.joblib")
+model_young = load("C:\ML Projects\Health Care Premium Prediction\artifatcs\model_young.joblib")
 
-scaler_rest = load("C:/ML Projects/Health Care Premium Prediction/artifatcs/scaler_rest.joblib")
-scaler_young = load("C:/ML Projects/Health Care Premium Prediction/artifatcs/scaler_young.joblib")
+scaler_rest = load("C:\ML Projects\Health Care Premium Prediction\artifatcs\scaler_rest.joblib")
+scaler_young = load("C:\ML Projects\Health Care Premium Prediction\artifatcs\scaler_young.joblib")
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
